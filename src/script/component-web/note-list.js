@@ -92,4 +92,4 @@ class NoteList extends HTMLElement {
   }
 }
 
-customeElements.define("note-list", NoteList);
+customElements.define("note-list", NoteList);
