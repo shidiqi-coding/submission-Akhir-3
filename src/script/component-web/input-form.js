@@ -197,12 +197,12 @@ class inputForm extends HTMLElement {
       body: inputBody.value,
     };
 
-    this._loadingIndicator.style.display = "block";
+    // this._loadingIndicator.style.display = "block";
     this.dispatchEvent(new CustomEvent("submit", { detail: eventDetail }));
 
-    setTimeout(() => {
-      this._loadingIndicator.style.display = "none";
-    }, 1000);
+    // setTimeout(() => {
+    //   this._loadingIndicator.style.display = "none";
+    // }, 1000);
 
     inputTitle.value = "";
     inputBody.value = "";
