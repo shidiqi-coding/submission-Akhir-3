@@ -126,7 +126,7 @@ class inputForm extends HTMLElement {
 
           <!--<div class="form-group">-->
           <label for="title">isi Catatan</label>
-          <textarea name="messange" id="messange" required></textarea>
+          <textarea name="message" id="message" required></textarea>
            <!--<small id ="descInvalid">Mohon masukkan deskripsi </small>-->
           
           <!--</div>-->
